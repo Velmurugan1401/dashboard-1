@@ -1,0 +1,38 @@
+body{
+    background-color: #F5F6F8;
+    background-color: rgb(245, 246, 248);
+}
+.navbar{
+    width: 100%;
+}
+.side-nav{
+    width: 18%;
+}
+    .post{
+        box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
+margin: 30px;
+border: none;
+max-height: 8.9rem;
+}
+
+ 
+.card-body .title{
+    font-size: 0.75rem;
+    letter-spacing: .0625rem;
+    color: #818ea3;
+    font-weight: 500;
+}
+.card-body .card-title{
+    font-size: 2.065rem;
+    font-weight: 500;
+    color: #3d5170;
+}
+.card-body .stats-small__percentage{
+    font-size: .75rem;
+
+}
+.col-lg-2{
+    max-width: 18.666667%;
+    max-width: 20.666667%;
+}
+ 
