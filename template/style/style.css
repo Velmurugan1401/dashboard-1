@@ -1,6 +1,7 @@
 body{
-    background-color: #F5F6F8;
+    /* background-color: #F5F6F8; */
     background-color: rgb(245, 246, 248);
+   
 }
 .navbar{
     width: 100%;
@@ -8,11 +9,33 @@ body{
 .side-nav{
     width: 18%;
 }
+.dashboard{
+    margin-top: 21px;
+}
+.dashboard .page-header .page-title{
+
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 15px;
+    padding: 0;
+    color: #3d5170;
+}
+.dashboard .page-subtitle{
+    max-width: 1px;
+    letter-spacing: .125rem;
+    color: #818ea3;
+    font-size: .625rem;
+}
     .post{
         box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
-margin: 30px;
+margin: 10px;
 border: none;
-max-height: 8.9rem;
+max-height: 7.9rem;
+
+}
+.box .col-lg-2{
+    max-width: 13.400rem;
 }
 
  
