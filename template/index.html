@@ -12,15 +12,15 @@
     <div class="d-flex" id="wrapper">
 
         <!-- Sidebar -->
-        <div class="bg-light border-right side-nav" id="sidebar-wrapper">
-          <div class="sidebar-heading">Start Bootstrap </div>
+        <div class=" border-right side-nav" id="sidebar-wrapper">
+          <div class="sidebar-heading text-center side-header">Start Bootstrap </div>
           <div class="list-group list-group-flush">
-            <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-pencil" aria-hidden="true"></i>Dashboard</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+            <a href="#" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-pencil side-icon" aria-hidden="true"></i>Dash board</a>
+            <a href="#" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-tasks side-icon" aria-hidden="true"></i>Short cuts</a>
+            <a href="#" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-file-text-o side-icon" aria-hidden="true"></i>Over view</a>
+            <a href="#" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-table side-icon" aria-hidden="true"></i>Events</a>
+            <a href="#" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-user side-icon" aria-hidden="true"></i>Profile</a>
+            <a href="#" class="list-group-item list-group-item-action  side-nav-one">Status</a>
           </div>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -101,7 +101,8 @@
                       <span class="stats-small__percentage stats-small__percentage--increase"><img src="./image/download.svg" alt="" srcset=""> 4.7%</span>
                       
                     </div>
-                  </div></div>
+                  </div>
+                </div>
                   <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="card text-center post " style="width: 12rem;">
                         <div class="card-body">
@@ -113,14 +114,43 @@
                   </div>
               </div>
           </div>
-        </div>
-        
-    
+          <div class="container">
+            <div class="row">
+            <div class="col-6">
+              <canvas id="chLine"></canvas>
+            </div>
+
+            </div>
+
+          </div>
+        </div>  
+             
       </div>
+      
+      <!-- <script src="../node_modules/bootstrap/js/dist/dropdown.js"></script> -->
+       <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
       <script src="../node_modules/echarts/dist/echarts.js"></script>
-      <script src="../node_modules/bootstrap/js/dist/dropdown.js"></script>
-      <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-      <script src="../node_modules/bootstrap/js/dist/index.js"></script>
-    
+      <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+    <script>
+      var chLine = document.getElementById("chLine");
+if (chLine) {
+  new Chart(chLine, {
+  type: 'line',
+  data: chartData,
+  options: {
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: false
+        }
+      }]
+    },
+    legend: {
+      display: false
+    }
+  }
+  });
+}
+    </script>
 </body>
 </html>

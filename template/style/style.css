@@ -41,6 +41,21 @@ border-left: 0.5px solid lightgrey; */
     width: 16%;
     box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
     height: 41rem;
+    
+}
+.sidebar-heading.side-header{
+    border-bottom: 1px solid lightgray;
+    height: 3.27rem;
+    padding: 10px;
+}
+.list-group .list-group-item.side-nav-one{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #3d5170;
+    letter-spacing: 0.050rem;
+}
+.list-group .list-group-item .side-icon{
+    padding-right: 10px;
 }
 .dashboard{
     margin-top: 21px;
