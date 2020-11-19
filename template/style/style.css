@@ -3,11 +3,46 @@ body{
     background-color: rgb(245, 246, 248);
    
 }
-.navbar{
-    width: 100%;
+.header{
+    /* box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ; */
+  height: 3.35rem;
+  
 }
+.header .header-one{
+    width: 110%;
+}
+.header .down{
+    /* height: 3.45rem;
+    background-color: #ffff;
+    box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
+border-left: 0.5px solid lightgrey; */
+
+}
+.header-two{
+    
+    background-color: white; 
+    box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
+
+}
+.input-group .searchengin{
+    height: 3.256rem;
+    border: none;
+    font-size: 0.7325rem;
+     color: #abb6bf;
+     box-shadow: none;
+}
+.input-group .s-icon{
+   
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #abb6bf;
+}
+
 .side-nav{
-    width: 18%;
+    width: 16%;
+    box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
+
 }
 .dashboard{
     margin-top: 21px;

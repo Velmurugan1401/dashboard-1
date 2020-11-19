@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
@@ -28,35 +28,32 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
     
-          <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-            <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
-    
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-              </ul>
+         <div class="container-fluid header">
+           <div class="row header-one">
+             <!-- <div class="col-lg-8 searchengin col-md-4 col-sm-8"> 
+               <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i><input class="search1" type="text" placeholder="Searching for something...">
+                </div>
+             </div>
+             <div class="col-lg-1 bell col-md-4 col-sm-6">
+                 <a href="http://"><i class="fa fa-bell" aria-hidden="true"></i></a>
+             </div>
+             <div class="col-lg-2 face col-md-4 col-sm-6">
+                                      
+             </div> -->
+             <div class="input-group col-12 header-two">
+              <i class="fa fa-search s-icon" aria-hidden="true"></i><input type="text" class="form-control searchengin" placeholder="Search for something..." aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+              <div class="input-group-append input-text-grp" id="button-addon4">
+                <a href="http://"><i class="fa fa-bell b-icon " aria-hidden="true"></i><span class="badge badge-pill badge-danger">2</span></a>
+                <div class="down">
+                  dropdown
+                </div>
+              </div>
             </div>
-          </nav>
+
+           </div>
+
+         </div>
     
           <div class="container-fluid dashboard">
             <div class="page-header row col-12 col-sm-4">
@@ -120,6 +117,10 @@
         
     
       </div>
+      <script src="../node_modules/echarts/dist/echarts.js"></script>
+      <script src="../node_modules/bootstrap/js/dist/dropdown.js"></script>
+      <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="../node_modules/bootstrap/js/dist/index.js"></script>
     
 </body>
 </html>
