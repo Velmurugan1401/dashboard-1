@@ -26,16 +26,18 @@
         <!-- /#sidebar-wrapper -->
     
         <!-- Page Content -->
-        <div id="page-content-wrapper">
+        <div id="page-content-wrapper" class="total">
     
          <div class="container-fluid header">
            <div class="row header-one">
              <div class="input-group col-12 header-two">
               <i class="fa fa-search s-icon" aria-hidden="true"></i><input type="text" class="form-control searchengin" placeholder="Search for something..." aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
-              <div class="input-group-append input-text-grp" id="button-addon4">
+              <div class="input-group-append input-text-grp bell-icon" id="button-addon4">
+                  <div class="b-bor">
                 <a href="http://"><i class="fa fa-bell b-icon " aria-hidden="true"></i><span class="badge badge-pill badge-danger">2</span></a>
+                  </div>
                 <div class="down">
-                  dropdown
+                   <h6>About-Us</h6> 
                 </div>
               </div>
             </div>
@@ -45,14 +47,17 @@
          </div>
     
           <div class="container-fluid dashboard">
-            <div class="page-header row col-12 col-sm-4">
+
+            <div class=" row">
+                <div class="page-header col-lg-12 col-sm-12 col-md-6">
                 <span class="text-uppercase page-subtitle">Dashboard</span>
                 <h3 class="page-title">Blog Overview</h3>
+                </div>
             </div>
           </div>
           <div class="container-fluid boxshow ">
               <div class="row">
-                  <div class="col-lg-2 col-md-4 col-sm-6 boxshow-1">
+                  <div class="col-lg-2 col-md-4 col-sm-12 boxshow-1">
                     <div class="card text-center post" style="width: 12rem;">
                         <div class="card-body ">
                           
@@ -62,7 +67,7 @@
                         </div>
                       </div>
                   </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6 boxshow-1">
+                  <div class="col-lg-2 col-md-4 col-sm-12 boxshow-1">
                     <div class="card text-center post" style="width: 12rem;">
                         <div class="card-body ">
                           <span class="title">PAGES</span>
@@ -73,7 +78,7 @@
                         
                       </div>
                   </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6 boxshow-1">
+                  <div class="col-lg-2 col-md-4 col-sm-12 boxshow-1">
                     <div class="card text-center post " style="width: 12rem;">
                         <div class="card-body">
                             <span class="title">COMMENTS</span>
@@ -82,7 +87,7 @@
                         </div>
                       </div>
                   </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6 boxshow-1">
+                  <div class="col-lg-2 col-md-4 col-sm-12 boxshow-1">
                       <div class="card text-center post" style="width: 12rem;">
                     <div class="card-body">
                         <span class="title">USERS</span>
@@ -92,7 +97,7 @@
                     </div>
                   </div>
                 </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6 boxshow-1">
+                  <div class="col-lg-2 col-md-4 col-sm-12 boxshow-1">
                     <div class="card text-center post " style="width: 12rem;">
                         <div class="card-body">
                             <span class="title">SUBSCRIBERS</span>
@@ -106,29 +111,161 @@
           <div class="container-fluid">
             <div class="row">
             <div class="col-lg-6 col-sm-12 col-md-8 customer">
+                <div class=" card-title text-center">
               <h4 class="cust">Customer Growth</h4>
+                </div>
                <div id="local" style="width: 500px; height: 300px;">
               
               </div>
                
              </div>
              <div class="col-lg-5 col-sm-12 col-md-8 deliver">
+                 <div class="card-title text-center">
                <h4>Delivery Ways</h4>
-              <div id="chline" style="width: 450px; height: 300px;"></div>
+                 </div>
+              <div  id="chline" style="width: 460px; height: 300px;"></div>
             </div>
             </div>
 
           </div>
-          <!-- <div class="container-fluid">
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-6">
-              <div id="deliver" style="width: 500px; height: 300px;">
-
+                <div class="col-lg-4 col-md-6 col-sm-12 creat-a">
+                    <h4>Create-Account</h4>
+                </div>
+              <div class="col-lg-7 col-md-6 col-sm-12 col-sm-12">
+                <form class="client-list-login">
+                    
+                    <div class="form-row">
+                      <div class="form-group col-md-6 col-sm-12">
+                        <label for="inputname">Name</label>
+                        <input type="text" class="form-control" id="inputname">
+                      </div>
+                      <div class="form-group col-md-6 col-sm-12">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6 col-sm-12">
+                          <label for="inputs-name">Store-Name</label>
+                          <input type="text" class="form-control" id="inputs-name">
+                        </div>
+                    <div class="form-group col-md-6 col-sm-12">
+                      <label for="inputnumber">Contact</label>
+                      <input type="tel" class="form-control" id="inputnumber" placeholder="+91-9952870943">
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6 col-sm-12">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                          </div>
+                    <div class="form-group col-lg-6 col-sm-12">
+                      <label for="inputAddress2">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6 col-sm-12">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4 col-sm-8">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2 col-sm-6">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </form>
               </div>
               </div>
             </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-10 col-sm-4 col-md-10 table-one">
+                      <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Name</th>
+                              <th scope="col">Store-Name</th>
+                              <th scope="col">Address</th>
+                              <th scope="col">Contact</th>
 
-          </div> -->
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Tamil-food</td>
+                              <td>N.o:20,north street,chathram</td>
+                              <td>123456789</td>
+
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                              <td>123456789</td>
+
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td >Larry the Bird</td>
+                              <td>Thornton</td>
+                              <td>@twitter</td>
+                              <td>123456789</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td >Larry the Bird</td>
+                                <td>Thornton</td>
+                                <td>@twitter</td>
+                              <td>123456789</td>
+
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td >Larry the Bird</td>
+                                <td>Thornton</td>
+                                <td>@twitter</td>
+                              <td>123456789</td>
+
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td >Larry the Bird</td>
+                                <td>Thornton</td>
+                                <td>@twitter</td>
+                              <td>123456789</td>
+
+                              </tr>
+                          </tbody>
+                        </table>                
+                    </div>
+                </div>
+            </div>  
+          </div>
+          
         </div>  
              
       </div>
@@ -137,74 +274,7 @@
        <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
       <script src="../node_modules/echarts/dist/echarts.js"></script>
       <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
-         <!-- <script>
-           var mychart=echarts.init(document.getElementById("chline"));
-           var option = {
-    backgroundColor: '#2c343c',
-
-    title: {
-        text: 'Customized Pie',
-        left: 'center',
-        top: 20,
-        textStyle: {
-            color: '#ccc'
-        }
-    },
-
-    tooltip: {
-        trigger: 'item',
-        formatter: '{a} <br/>{b} : {c} ({d}%)'
-    },
-
-    visualMap: {
-        show: false,
-        min: 80,
-        max: 600,
-        inRange: {
-            colorLightness: [0, 1]
-        }
-    },
-    series: [
-        {
-            name: '访问来源',
-            type: 'pie',
-            radius: '55%',
-            center: ['50%', '50%'],
-            data: [
-                {value: 335, name: '直接访问'},
-                {value: 310, name: '邮件营销'},
-                {value: 274, name: '联盟广告'},
-                {value: 235, name: '视频广告'},
-                {value: 400, name: '搜索引擎'}
-            ].sort(function (a, b) { return a.value - b.value; }),
-            roseType: 'radius',
-            label: {
-                color: 'rgba(255, 255, 255, 0.3)'
-            },
-            labelLine: {
-                lineStyle: {
-                    color: 'rgba(255, 255, 255, 0.3)'
-                },
-                smooth: 0.2,
-                length: 10,
-                length2: 20
-            },
-            itemStyle: {
-                color: '#c23531',
-                shadowBlur: 200,
-                shadowColor: 'rgba(0, 0, 0, 0.5)'
-            },
-
-            animationType: 'scale',
-            animationEasing: 'elasticOut',
-            animationDelay: function (idx) {
-                return Math.random() * 200;
-            }
-        }
-    ]
-};
-mychart.setOption(option);
-         </script> -->
+         
       <!-- // script one  -->
     <script type="text/javascript">
        var mychartone=echarts.init(document.getElementById("chline"));
@@ -231,11 +301,11 @@ var option = {
         }
     },
     xAxis: {
-        data: ['驯鹿', '火箭', '飞机', '高铁', '轮船', '汽车', '跑步', '步行', ],
+        data: [ 'sky', 'Train', 'Boat', 'Car', ' Bike', 'Walk', ],
         axisTick: {show: false},
         axisLine: {show: false},
         axisLabel: {
-            color: '#e54035'
+            color: 'black'
         }
     },
     yAxis: {
@@ -259,7 +329,7 @@ var option = {
                 opacity: 1
             }
         },
-        data: [123, 60, 25, 18, 12, 9, 2, 1],
+        data: [123, 60, 25, 18, 12, 9],
         z: 10
     }, {
         name: 'glyph',
@@ -268,20 +338,12 @@ var option = {
         symbolPosition: 'end',
         symbolSize: 50,
         symbolOffset: [0, '-120%'],
-        data: [{
-            value: 123,
-            symbol: pathSymbols.reindeer,
-            symbolSize: [60, 60]
-        }, {
-            value: 60,
-            symbol: pathSymbols.rocket,
-            symbolSize: [50, 60]
-        }, {
-            value: 25,
+        data: [ {
+            value: 90,
             symbol: pathSymbols.plane,
-            symbolSize: [65, 35]
+            symbolSize: [60, 35]
         }, {
-            value: 18,
+            value: 38,
             symbol: pathSymbols.train,
             symbolSize: [50, 30]
         }, {
