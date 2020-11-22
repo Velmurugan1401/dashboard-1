@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(250, 252, 255);
+   }
+.header{
+    height: 3.35rem;
+    
+    
+}
+.header .header-one{
+    width: 103%;
+}
+.header .header-two{
+    background-color: white;
+    box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
+}
+.header-one .down h6{
+    margin-top: 14px;
+    margin-left: 5px;
+}
+.entire{
+    width: 100%;
+    margin-left: 220px;
+}
+.input-group .searchengin{
+    height: 3.256rem;
+    border: none;
+    font-size: 0.73rem;
+    color: #abb6bf;
+    box-shadow: none;
+
+}
+.s-icon{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: #abb6bf;
+}
+.side-nav{
+    width: 13.5rem;
+    box-shadow: 0 5px 0  rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
+     position: fixed;
+    height: 41rem; 
+    top: 0;
+    left: 0;
+
+}
+.side-header{
+    border-bottom: 1px solid lightgray;
+    height: 3.2rem;
+    padding-left: 10px;
+    
+}
+.side-icon{
+    padding-right: 10px;
+}
+.side-nav-one{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color:lightslategrey;
+    letter-spacing: 0.05rem;
+    /*top: 10px;*/
+
+}
+
+.board{
+    top: 10px;
+}
+.page-title h1{
+    letter-spacing: 0.125rem;
+    font-size: 2rem;
+    color: #818ea3;
+    
+
+
+}
+
+
+.show{
+    border: none;
+    margin: 10px;
+    box-shadow: 0 2px 0  rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
+   max-height: 7.9rem;
+   
+    
+}
+.box .box-1{
+    max-width: 13.400rem;
+    padding-left: 30px;
+}
+
+
+.card-body .card-title{
+    font-size: 0.58rem;
+    color: #818ea3;
+    letter-spacing: 0.53rem;
+    font-weight: 600;    
+}
+.card-body .card-text{
+    font-size: 1.5rem;
+    color: #3d5170;
+    font-weight: 400;
+    
+}
+
+.charts{
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+.regstr{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.img{
+    background-image: url("../image/fd.jpg");
+    background-size: cover;
+}
+.img h4{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 2rem;
+    font-weight: 400;
+    height: 33rem;
+
+}
+.login{
+    background-image: url("../image/fd.jpg");
+    background-size: cover;
+    
+
+}
+.list{
+    padding-top: 25px;
+}
