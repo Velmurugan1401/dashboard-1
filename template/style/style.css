@@ -11,7 +11,7 @@ body{
   height: 3.35rem;
   }
 .header .header-one{
-    width: 105%;
+    width: 103%;
 }
 .header-one .bell-icon .b-icon{
     padding-right: 18px;
@@ -130,10 +130,7 @@ max-height: 7.9rem;
     font-size: .75rem;
 
 }
-.col-lg-2{
-    max-width: 18.666667%;
-    max-width: 20.666667%;
-}
+
 .customer,.deliver {
     box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
 margin-top: 20px;
@@ -153,20 +150,59 @@ background-size: cover;
 }
 .creat-a{
     box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
-
+    height: 35rem;  
     margin-top: 20px;
     margin-left: 40px;
     background-image: url("../image/food.jpg");
     background-size: cover;
 }
-.creat-a h4{
-    font-size: 50px;
-    margin-left: 75px;
-    margin-top: 12rem;
+.creat-a .u-photo{
+font-size: 60px;
+margin-top: 13px;
+margin-left: 15px;
+color:skyblue; 
+box-shadow: 0 0 20px skyblue;
+transform: rotate(-42deg);
+}
+.creat-a .photo{
+    margin-top: 100px;
+    margin-left: 100px;
+    
+    width: 30%;
+    height: 5rem;
+    border: 5px solid skyblue;
+    border-radius: 100px;
+}
+.file-field .sel{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.file-field span{
+    margin-right: 40px;
     font-weight: 700;
+    font-size: 30px;
 }
 .table-one{
     margin-left: 20px;
 }
+/* foood list page design codes */
 
- 
+ .f-list .card{
+margin-left:60px;
+}
+.f-list .c-one{
+    margin-left: 105px;
+}
+ .f-list .c-two{
+     margin-left: 150px;
+ }
+ .f-list .card{
+     box-shadow: 0 0 10px skyblue;
+ }
+ .store-two{
+     margin-top: 20px
+ }
+ .store-two .c-one{
+    box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
+     
+ }
