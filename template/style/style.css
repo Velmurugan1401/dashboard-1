@@ -1,19 +1,17 @@
 body{
     /* background-color: #F5F6F8; */
-    background-color: rgb(36, 90, 199);
+    background-color: rgb(225, 228, 235);
     width: 100%;
    
 }
 .t-one .total{
-    margin-left: 250px;
+    margin-left: 223px;
     background-color: rgb(244,245,247);
   
 }
-
-
-.header .header-two{
+.header-two{
     /* box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ; */
-  height: 3.35rem;
+  height: 3.25rem;
   }
 
 .header-one .bell-icon .b-icon{
@@ -38,7 +36,8 @@ body{
     }
 .header-two{
     background-color: white; 
-    box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
+    box-shadow: 0 0.125rem 0.625rem rgba(90,97,105,.12);
+    /* box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ; */
 }  
 .header-one .down h6{
     margin-top: 14px;
@@ -49,7 +48,7 @@ body{
     margin-right:27px ;
 }
 .input-group .searchengin{
-    height: 3.256rem;
+    height: 3.156rem;
     border: none;
     font-size: 0.7325rem;
      color: #abb6bf;
@@ -63,11 +62,12 @@ body{
     color: #abb6bf;
 }
 
-.t-one .side-nav{
-    width: 15.5rem;
-    box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
+ .side-nav{
+    width: 13.87rem;
+    /* box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ; */
     height: 41rem;
     position: fixed;
+    box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1);
     top: 0;
     left: 0;
     
@@ -83,23 +83,19 @@ body{
     font-weight: 500;
     color: #3d5170;
     letter-spacing: 0.050rem;
+ margin-top: 8px;   
 }
 .list-group .list-group-item .side-icon{
     padding-right: 10px;
 }
- .container .dash-b{
-    margin-left:100px ;
-}
-
-
 .dashboard .page-header .page-title{
 
-    font-size: 1.625rem;
+    font-size: 1.425rem;
     font-weight: 500;
     line-height: 1;
     margin-top: 15px;
     padding: 0;
-    color: #3d5170;
+    color: rgb(62,81,111);
 }
 .dashboard .page-subtitle{
     max-width: 1px;
@@ -114,20 +110,20 @@ border: none;
 max-height: 7.9rem;
 
 }
-.boxshow .boxshow-1{
+ .boxshow-1{
     max-width: 14rem;
 }
-.boxshow .boxshow-1 .post{
+ .boxshow-1 .post{
     /* max-width: 14.400rem; */
     /* margin: 5px; */
     /* padding-left: 30px; */
-    color: #ffffff;
-    border-radius: 8px;
+    color: rgb(255,255,255)f;
+    border-radius: 9px;
 max-width: 14rem;
 
 }
-.boxshow .boxshow-1 .post span{
-    color: black;
+ .boxshow-1 .post span{
+    color: rgb(134,147,167);
     margin-bottom: 10px;
 
 }
@@ -140,7 +136,7 @@ max-width: 14rem;
     font-weight: 500;
 }
 .card-body .card-title{
-    font-size: 2.065rem;
+    font-size: 1.765rem;
     font-weight: 500;
     color: #3d5170;
 }
@@ -152,82 +148,21 @@ max-width: 14rem;
 .customer,.deliver {
     box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
 margin-top: 20px;
-margin: 40px;
+margin-left: 18px;
 background-color: white;
 }
 .deliver{
+   
     /* margin-left: 10px; */
 }
-.client-list-login{
-  box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
-margin-left: 20px;
-margin-top: 20px;
-width: 105%;
-border: 5px solid white;
-background-image: url("../image/food.jpg");
-background-size: cover;
+.prof{
+    width: 15rem;
 }
-.creat-a{
+.user .user-pic{
     box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
-    height: 35rem;  
-    margin-top: 20px;
-    margin-left: 40px;
-    background-image: url("../image/food.jpg");
-    background-size: cover;
-}
-.creat-a .u-photo{
-font-size: 60px;
-margin-top: 13px;
-margin-left: 15px;
-color:skyblue; 
-box-shadow: 0 0 20px skyblue;
-transform: rotate(-42deg);
-}
-.creat-a .photo{
-    margin-top: 100px;
-    margin-left: 100px;
-    
-    width: 30%;
-    height: 5rem;
-    border: 5px solid skyblue;
-    border-radius: 100px;
-}
-.file-field .sel{
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.file-field span{
-    margin-right: 40px;
-    font-weight: 700;
-    font-size: 30px;
-}
-.table-one{
-    margin-left: 20px;
-}
-/* foood list page design codes */
 
- .f-list .card{
-margin-left:60px;
+    border-radius: 10px;
 }
-.f-list .c-one{
-    margin-left: 105px;
+.user-1{
+    margin-top:20px;
 }
- .f-list .c-two{
-     margin-left: 150px;
- }
- .f-list .card{
-     box-shadow: 0 0 10px skyblue;
- }
- .store-two{
-     margin-top: 20px
- }
- .store-two .c-one{
-    box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
-     
- }
- .client-list-login{
-    width: 40rem;
- }
- .newcon{
-   
- }

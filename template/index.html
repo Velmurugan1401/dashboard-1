@@ -20,18 +20,18 @@
   <div class="d-flex t-one" id="wrapper">
 
     <!-- Sidebar -->
-    <div class=" border-right side-nav" id="sidebar-wrapper ">
+    <div class=" border-right side-nav " id="sidebar-wrapper ">
       <div class="sidebar-heading text-center  side-header">FOODIE </div>
       <div class="list-group list-group-flush">
         <a href="index.html" class="list-group-item list-group-item-action  side-nav-one"><i
             class="fa fa-pencil side-icon" aria-hidden="true"></i>Dash board</a>
         <a href="total file/tabel.html" class="list-group-item list-group-item-action  side-nav-one"><i
             class="fa fa-tasks side-icon" aria-hidden="true"></i>Short cuts</a>
-        <a href="total file/foodlist.html" class="list-group-item list-group-item-action  side-nav-one"><i
+        <a href="" class="list-group-item list-group-item-action  side-nav-one"><i
             class="fa fa-file-text-o side-icon" aria-hidden="true"></i>Over view</a>
-        <a href="#" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-table side-icon"
+        <a href="total file/events.html" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-table side-icon"
             aria-hidden="true"></i>Events</a>
-        <a href="#" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-user side-icon"
+        <a href="total file/foodlist.html" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-user side-icon"
             aria-hidden="true"></i>Profile</a>
         <a href="#" class="list-group-item list-group-item-action  side-nav-one">Status</a>
       </div>
@@ -44,7 +44,7 @@
 
 
       <div class="row header-one ">
-        <div class="input-group  header-two">
+        <div class="input-group sticky-top bg-white  header-two">
           <i class="fa fa-search s-icon" aria-hidden="true"></i><input type="text" class="form-control searchengin"
             placeholder="Search for something..." aria-label="Recipient's username with two button addons"
             aria-describedby="button-addon4">
@@ -134,89 +134,52 @@
 
 
       <div class="row">
-        <div class="col-lg-5 col-sm-12 col-md-5 customer">
-          <div class=" card-title text-center">
-            <h4 class="cust">Customer Growth</h4>
+
+        <div class="col-lg col-sm-12 col-md-5 customer">
+
+          <div class="col-12 card-header border-bottom bg-white">
+            <h6 class="m-0">Customer Growth</h6>
           </div>
-          <div id="local" style="width: 400px; height: 300px;">
+
+
+          <div class="row border-bottom py-2 bg-light">
+            <div class="col-12 col-sm-6">
+              <div id="blog-overview-date-range"
+                class="input-daterange input-group input-group-sm my-auto ml-auto mr-auto ml-sm-auto mr-sm-0"
+                style="max-width: 350px;">
+                <input type="text" class="input-sm form-control" name="start" placeholder="Start Date"
+                  id="blog-overview-date-range-1">
+                <input type="text" class="input-sm form-control" name="end" placeholder="End Date"
+                  id="blog-overview-date-range-2">
+                <span class="input-group-append">
+                  <span class="input-group-text">
+                    <i class="material-icons"></i>
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 d-flex mb-2 mb-sm-0">
+              <button type="button" class="btn btn-sm btn-white ml-auto mr-auto ml-sm-auto mr-sm-0 mt-3 mt-sm-0">View
+                Full Report →</button>
+            </div>
+          </div>
+          <div id="local" style="width: 500px; height: 300px;">
 
           </div>
 
         </div>
-        <div class="col-lg-5 col-sm-12 col-md-5 deliver">
-          <div class="card-title text-center">
-            <h4>Delivery Ways</h4>
+        <div class="col-lg col-sm-12 col-md-5 deliver">
+          <div class="col-12 card-header border-bottom bg-white">
+            <h6 class="m-0">MOST CUSTOMER AREAS</h6>
           </div>
-          <div id="chline" style="width: 460px; height: 300px;"></div>
-        </div>
-      </div>
+          <div id="pie" style="width: 500px; height: 300px;">
 
-      <div class="row">
-        <div class="col-lg-10 col-sm-4 col-md-5 table-one">
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Store-Name</th>
-                <th scope="col">Address</th>
-                <th scope="col">Contact</th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Tamil-food</td>
-                <td>N.o:20,north street,chathram</td>
-                <td>123456789</td>
-
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                <td>123456789</td>
-
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
-                <td>123456789</td>
-
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
-                <td>123456789</td>
-
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
-                <td>123456789</td>
-
-              </tr>
-              <tr>
-                <th scope="row">6</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
-                <td>123456789</td>
-
-              </tr>
-            </tbody>
-          </table>
+          </div>
+         
         </div>
       </div>
+
+ 
 
 
 
@@ -344,97 +307,70 @@
   <script type="text/javascript">
     var charttwo = echarts.init(document.getElementById("local"));
     option = {
-      tooltip: {
-        trigger: 'axis',
-        axisPointer: {
-          type: 'shadow'
-        }
-      },
-      legend: {
-        data: ['FIRST-W', 'SW', 'SW', 'TW', 'FW', 'FW-L1', 'FW-L2', 'FW-L3']
-      },
-      grid: {
-        left: '3%',
-        right: '4%',
-        bottom: '3%',
-        containLabel: true
-      },
-      xAxis: [{
+      xAxis: {
         type: 'category',
-        data: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUNE', 'JULY']
-      }],
-      yAxis: [{
+        data: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JULY']
+      },
+      yAxis: {
         type: 'value'
-      }],
+      },
       series: [{
-          name: 'FIRST-W',
-          type: 'bar',
-          data: [320, 332, 301, 334, 390, 330, 320]
-        },
-        // {
-        //     name: 'SW-M',
-        //     type: 'bar',
-        //     stack: '广告',
-        //     data: [120, 132, 101, 134, 90, 230, 210]
-        // },
-        {
-          name: 'SW',
-          type: 'bar',
-          stack: '广告',
-          data: [620, 582, 691, 634, 690, 630, 620]
-        },
-        // {
-        //     name: 'SW-L',
-        //     type: 'bar',
-        //     stack: '广告',
-        //     data: [150, 232, 201, 154, 190, 330, 410]
-        // },
-        {
-          name: 'TW',
-          type: 'bar',
-          data: [862, 1018, 964, 1026, 1679, 1600, 1570],
-          markLine: {
-            lineStyle: {
-              type: 'dashed'
-            },
-            data: [
-              [{
-                type: 'min'
-              }, {
-                type: 'max'
-              }]
-            ]
-          }
-        },
-        {
-          name: 'FW',
-          type: 'bar',
-          barWidth: 5,
-          stack: '搜索引擎',
-          data: [620, 732, 701, 734, 1090, 1130, 1120]
-        },
-        // {
-        //     name: '谷歌',
-        //     type: 'bar',
-        //     stack: '搜索引擎',
-        //     data: [120, 132, 101, 134, 290, 230, 220]
-        // },
-        // {
-        //     name: '必应',
-        //     type: 'bar',
-        //     stack: '搜索引擎',
-        //     data: [60, 72, 71, 74, 190, 130, 110]
-        // },
-        // {
-        //     name: '其他',
-        //     type: 'bar',
-        //     stack: '搜索引擎',
-        //     data: [62, 82, 91, 84, 109, 110, 120]
-        // }
-      ]
+        data: [820, 932, 901, 934, 1290, 1330, 1320],
+        type: 'line',
+        smooth: true
+      }]
     };
 
     charttwo.setOption(option);
+  </script>
+   <script type="text/javascript">
+    // based on prepared DOM, initialize echarts instance
+   
+    var myChart = echarts.init(document.getElementById('pie'));
+   // specify chart configuration item and data
+   var option={
+    
+  tooltip: {
+      trigger: 'item',
+      formatter: '{a} <br/>{b} : {c} ({d}%)'
+  },
+  legend: {
+      orient: 'vertical',
+      left: 'left',
+      data: ['Tvl','Alangulam','Thoothukudi','Nagercoil']
+  },
+  series: [
+      {
+          name: 'User',
+          type: 'pie',
+          radius: '55%',
+          center: ['50%', '60%'],
+          data: [
+              {value: 335, name: 'Tirunelveli'},
+              {value: 310, name: 'Alangulam'},
+              {value: 234, name: 'thootukudi'},
+              {value: 135, name: 'Nagercoil'},
+              
+          ],
+          emphasis: {
+              itemStyle: {
+                  shadowBlur: 10,
+                  shadowOffsetX: 0,
+                  shadowColor: 'rgba(0, 0, 0, 0.5)'
+              }
+          }
+      }
+  ]
+};
+
+    // use configuration item and data specified to show chart
+    myChart.setOption(option);
+   
+  </script>
+
+    // use configuration item and data specified to show chart
+    myChart.setOption(option);
+   
   </script>
 
 
