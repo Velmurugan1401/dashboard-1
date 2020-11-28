@@ -62,9 +62,13 @@
       </div>
     
       <div class="row">
-    
-
-          <div class="col-xl-12 col-sm-12 col-md-5 user user-1">
+                <div class="col-lg col-sm-12 col-md-5 trend">
+                  <h4 class="card-header">Trending Items Growth</h4>
+                  <div id="trend" style="width: 500px; height: 300px;">
+                  </div>
+                </div>
+            
+           <div class=" col-lg col-sm-12 col-md-5 user user-1">
             <div class="card user-pic">
               <div class="card-header border-0 pb-0 d-sm-flex d-block">
                 <div>
@@ -230,10 +234,53 @@
 
 
   <script src="../node_modules/bootstrap/js/dist/dropdown.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="../node_modules/echarts/dist/echarts.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../../node_modules/echarts/dist/echarts.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
-
+<script type="text/javascript">
+   var charfood = echarts.init(document.getElementById("trend"));
+  option = {
+    tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b}: {c} ({d}%)'
+    },
+    legend: {
+        orient: 'vertical',
+        left: 10,
+        data: ['PAROTTA', 'CHAPTI', 'IDLY', 'DHOSA', 'BRIYANI']
+    },
+    series: [
+        {
+            name: 'DHOSA',
+            type: 'pie',
+            radius: ['50%', '70%'],
+            avoidLabelOverlap: false,
+            label: {
+                show: false,
+                position: 'center'
+            },
+            emphasis: {
+                label: {
+                    show: true,
+                    fontSize: '30',
+                    fontWeight: 'bold'
+                }
+            },
+            labelLine: {
+                show: false
+            },
+            data: [
+                {value: 524, name: 'PAROTTA'},
+                {value: 180, name: 'CHAPTI'},
+                {value: 76, name: 'IDLY'},
+                {value: 215, name: 'DHOSA'},
+                {value: 524, name: 'BRIYANI'}
+            ]
+        }
+    ]
+};
+charfood.setOption(option);
+</script>
   
 
 
