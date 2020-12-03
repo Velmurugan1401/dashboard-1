@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <!-- <link rel="stylesheet" href="./style/style.css"> -->
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="d-flex t-one" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class=" border-right side-nav " id="sidebar-wrapper ">
+      <div class="sidebar-heading text-center page-title  side-header"> <img src="../image/logo.jpg" alt="" srcset="">
+        FOODIE </div>
+      <div class="list-group list-group-flush">
+        <a href="../index.html" class="list-group-item list-group-item-action  side-nav-one"><i
+            class="fa fa-pencil side-icon" aria-hidden="true"></i>Dash board</a>
+        <a href="foodcatagories.html" class="list-group-item list-group-item-action  side-nav-one"><i
+            class="fa fa-tasks side-icon" aria-hidden="true"></i>Food Categories</a>
+        <a href="tabel.html" class="list-group-item list-group-item-action  side-nav-one"><i
+            class="fa fa-file-text-o side-icon" aria-hidden="true"></i>Store List</a>
+        <a href="menu.html" class="list-group-item list-group-item-action  side-nav-one"><i
+            class="fa fa-table side-icon" aria-hidden="true"></i>Menu</a>
+        <a href="customer.html" class="list-group-item list-group-item-action  side-nav-one"><i
+            class="fa fa-user side-icon" aria-hidden="true"></i>Customer</a>
+        <a href="customer.html" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-shopping-cart  side-icon" aria-hidden="true"></i>Orders</a>
+
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper" class="total container-fluid">
+
+
+
+      <div class="row header-one ">
+        <div class="input-group sticky-top bg-white  header-two">
+          <i class="fa fa-search s-icon" aria-hidden="true"></i><input type="text" class="form-control searchengin"
+            placeholder="Search for something..." aria-label="Recipient's username with two button addons"
+            aria-describedby="button-addon4">
+          <div class="input-group-append input-text-grp bell-icon" id="button-addon4">
+            <div class="b-bor">
+              <a href="http://"><i class="fa fa-bell b-icon " aria-hidden="true"></i><span
+                  class="badge badge-pill badge-danger">2</span></a>
+            </div>
+            <div class="down">
+              <h6>About-Us</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg col-md-5 col-sm-12 tab">
+          <div class="card">
+            <div class="card-header"><span>Food List</span>
+              <a class="create btn-group btn-group-toggle btn btn-secondary active" href="forms/product.html">Create</a>
+            </div>
+
+            <div class="card-body">
+              <table class="table">
+                <thead class="colore">
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Restaurant ID </th>
+                    <th scope="col">Category ID </th>
+                    <th scope="col">Food Name</th>
+                    <th scope="col">Food Photo</th>
+                    <th scope="col">Price/Qty</th>
+                    <th scope="col">Is In Stock</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Action</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">1</td>
+                    <td>3045</td>
+                    <td>2546</td>
+                    <td class="">Idly
+                    </td>
+                    <td class="tab-two"><img class="rounded" src="../image/idly.jpg"></td>
+                    <td>60/10</td>
+                    <td>Avail..</td>
+                    <td>food is delicious</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">2</td>
+                    <td>3048</td>
+                    <td>2046</td>
+
+                    <td class="">Parotta</td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/parotta.jpg"></td>
+                    <td>100/10</td>
+                    <td>Avail..</td>
+                    <td> Never tasteless, disgusting, or nauseating.</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">3</td>
+                    <td>3047</td>
+                    <td>2478</td>
+                    <td class="">Chapti
+                    </td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/chapti.jpg"></td>
+                    <td>80/10</td>
+                    <td>Avail..</td>
+                    <td> lovely, wonderful, pleasant, enjoyable</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">4</td>
+                    <td>3057</td>
+                    <td>2322</td>
+                    <td class="">Briyani
+                    </td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/briyani.jpg"></td>
+                    <td>350/1kg</td>
+                    <td>Avail..</td>
+                    <td>Delectable food is delicious, tasty,enjoyable palatable, delightful, toothsome, pleasing, satisfying. Never tasteless, disgusting, or nauseating.</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">5</td>
+                    <td>3974</td>
+                    <td>2811</td>
+                    <td class="">Dhosa
+                    </td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/dhosa.jpg"></td>
+                    <td>100/10</td>
+                    <td>Avail..</td>
+                    <td> food -like a choice steak- mean more often superior, excellent, select, high-quality, cream of the crop, vintage, prime. second rate.</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">6</td>
+                    <td>3459</td>
+                    <td>4567</td>
+                    <td class="">Meals
+                    </td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/meals.jpg"></td>
+                    <td>80/1</td>
+                    <td>Avail..</td>
+                    <td>Flavorful, obviously full of flavor, if you want to try less known words, sapid or saporous. It wouldn’t be flavorless, tasteless, bland, flat, or insipid.</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">7</td>
+                    <td>3875</td>
+                    <td>2378</td>
+                    <td class="">Apple juice
+                    </td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/fruit_juice_and_fruit_stock_photo_167154.jpg"></td>
+                    <td>50/1</td>
+                    <td>Avail..</td>
+                    <td>Juicy food is succulent, luscious, thirst quenching, moist, ripe, usually flavorful, many times fascinating. Dry and bland don’t apply.</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">8</td>
+                    <td>3666</td>
+                    <td>2399</td>
+                    <td class="">Fish Fry
+                    </td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/fish.jpg"></td>
+                    <td>180/1</td>
+                    <td>Avail..</td>
+                    <td>Say peppery and piquant comes to the mind. Others could think of gingery, spicy, hot, fiery.Tasting like pepper, no one would think it mild.</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">9</td>
+                    <td>3007</td>
+                    <td>2556</td>
+                    <td class="">Chicken 65
+                    </td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/chicken.jpg"></td>
+                    <td>80/100g</td>
+                    <td>Avail..</td>
+                    <td>Say peppery and piquant comes to the mind. Others could think of gingery, spicy, hot, fiery</td>                <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                  <tr>
+                    <td scope="row">10</td>
+                    <td>3346</td>
+                    <td>2783</td>
+                    <td class="">Fried Rice
+                    </td>
+
+                    <td class="tab-two"><img class="rounded" src="../image/Vegetable-Fried-Rice-3.jpg"></td>
+                    <td>90/1</td>
+                    <td>Avail..</td>
+                    <td> considered divine, wonderful, blissful, delightful, lovely, fantastic, glorious, sublime; opposed to horrible and dreadful.</td>
+                    <td class="t-two"><a href=""><i class="fa fa-pencil edit" aria-hidden="true"></i></a></td>
+
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <script src="../node_modules/bootstrap/js/dist/dropdown.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../node_modules/echarts/dist/echarts.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+
+  <!-- // script one  -->
+
+
+
+</body>
+
+</html>

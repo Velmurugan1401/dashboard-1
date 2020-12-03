@@ -1,7 +1,9 @@
 body{
     /* background-color: #F5F6F8; */
-    background-color: rgb(225, 228, 235);
+   
+    background-color: rgb(244,245,247) !important;
     width: 100%;
+    height: 100%;
    
 }
 .t-one{
@@ -12,6 +14,7 @@ body{
     background-color: rgb(244,245,247);
   
 }
+                           /* HEADER STYLES */
 .header-two{
     /* box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ; */
   height: 3.25rem;
@@ -64,6 +67,7 @@ body{
     font-size: 0.7rem;
     color: #abb6bf;
 }
+                        /* side header */
 
  .side-nav{
     width: 13.97rem;
@@ -101,9 +105,18 @@ body{
     letter-spacing: 0.050rem;
  margin-top: 8px;   
 }
+
+.list-group .side-nav-one:hover,a:focus {
+    color: orange !important;
+  
+}
+.list-group a:active{
+    color: orange;
+}
 .list-group .list-group-item .side-icon{
     padding-right: 10px;
 }
+                     /* inside middleware */
 .dashboard{
     margin: 20px;
 }
@@ -168,11 +181,12 @@ max-width: 14rem;
 margin-top: 20px;
 margin-left: 18px;
 background-color: white;
+border-radius: 10px;
 }
-.deliver{
+/* .deliver{
    
-    /* margin-left: 10px; */
-}
+    margin-left: 10px;
+} */
 .prof{
     width: 15rem;
 }
@@ -194,3 +208,64 @@ background-color:#fff ;
 #trend{
     margin-top: 40px;
 }
+.addproduct
+{
+    box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
+     background-color: #fff;
+     margin: 20px;
+     border-radius: 10px;
+}
+.colore{
+    background-color: orange;
+}
+                   /* menu html */
+.f-list .create{
+     margin-left: 52rem;
+     margin-bottom: 10px; 
+     padding: 6px;  
+     border: 1px solid orange;
+     color: orange;
+     font-weight: 500;
+    
+}
+.f-list .f{
+    width: 10rem;
+    font-weight: 500;
+    /* font-size: 30px; */
+}
+             /* restaurent details */
+.tab .tab-one{
+    color: yellow;
+    letter-spacing: 10px;
+    
+}
+.tab .t-two .edit{
+    color: black;
+}
+.tab .create{
+    font-weight: 600;
+    margin-left: 53rem;
+    padding: 5px;
+}
+.tab span{
+    font-size: 1.425rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0;
+    color: rgb(62,81,111);
+}
+.tab{
+    margin-top: 20px;
+}
+                /* menu */
+.tab img{
+    width: 50%;
+}
+.tab .tab-two{
+    width: 15%;
+}
+              /* forms */
+.user{
+    margin-top: 20px;
+}
+/* for demo purpose */
