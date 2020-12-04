@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../../style/style.css">
+  <!-- <link rel="stylesheet" href="./style/style.css"> -->
+  <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="d-flex t-one" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class=" border-right side-nav " id="sidebar-wrapper ">
+      <div class="sidebar-heading text-center  side-header"><img src="../../image/logo.jpg" alt="" srcset="">FOODIE </div>
+      <div class="list-group list-group-flush">
+        <a href="../../index.html" class="list-group-item list-group-item-action  side-nav-one"><i
+          class="fa fa-pencil side-icon" aria-hidden="true"></i>Dash board</a>
+  <a href="../foodcatagories.html" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-tasks side-icon"
+          aria-hidden="true"></i>Food Categories</a>
+  <a href="../tabel.html" class="list-group-item list-group-item-action  side-nav-one"><i
+          class="fa fa-file-text-o side-icon" aria-hidden="true"></i>Store List</a>
+  <a href="../menu.html" class="list-group-item list-group-item-action  side-nav-one"><i
+          class="fa fa-table side-icon" aria-hidden="true"></i>Menu</a>
+  <a href="../customer.html" class="list-group-item list-group-item-action  side-nav-one"><i
+          class="fa fa-user side-icon" aria-hidden="true"></i>Customer</a>
+  <a href="../orders.html" class="list-group-item list-group-item-action  side-nav-one"><i class="fa fa-shopping-cart  side-icon" aria-hidden="true"></i>Orders</a>
+        <!-- <a href="" class="list-group-item list-group-item-action  side-nav-one">Status</a> -->
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper" class="total container-fluid">
+
+
+
+      <div class="row header-one ">
+        <div class="input-group sticky-top bg-white  header-two">
+          <i class="fa fa-search s-icon" aria-hidden="true"></i><input type="text" class="form-control searchengin"
+            placeholder="Search for something..." aria-label="Recipient's username with two button addons"
+            aria-describedby="button-addon4">
+          <div class="input-group-append input-text-grp bell-icon" id="button-addon4">
+            <div class="b-bor">
+              <a href="http://"><i class="fa fa-bell b-icon " aria-hidden="true"></i><span
+                  class="badge badge-pill badge-danger">2</span></a>
+            </div>
+            <div class="down">
+              <h6>About-Us</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="main-content-container container-fluid px-4">
+        <!-- Page Header -->
+        <!-- <div class="page-header row no-gutters py-4">
+          <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Overview</span>
+            <h3 class="page-title">User Profile</h3>
+          </div>
+        </div> -->
+        <!-- End Page Header -->
+        <!-- Default Light Table -->
+        <div class="row">
+          <div class="col-lg-4 user">
+            <div class="card user-pic">
+              <div class="card-header">Profile Picture</div>
+              <div class="card-body text-center">
+                  <!-- Profile picture image-->
+                  <img class="img-account-profile rounded-circle mb-2 prof" src="../../image/prof-1.png" alt="">
+                  <!-- Profile picture help block-->
+                  <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
+                  <!-- Profile picture upload button-->
+                  <button class="btn btn-primary" type="button">Upload new image</button>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-8 user">
+            <div class="card card-small mb-4 user-pic">
+              <div class="card-header border-bottom">
+                <h6 class="m-0">Account Details</h6>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item p-3">
+                  <div class="row">
+                    <div class="col">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="feFirstName">First Name</label>
+                            <input type="text" class="form-control" id="feFirstName" placeholder="First Name" value="Sierra">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="feLastName">Last Name</label>
+                            <input type="text" class="form-control" id="feLastName" placeholder="Last Name" value="Brooks">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="feEmailAddress">Contact</label>
+                            <input type="tel" class="form-control" id="feEmailAddress" placeholder="ph-number" value="+91-9952870943">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="fePassword">Password</label>
+                            <input type="password" class="form-control" id="fePassword" placeholder="Password">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="feInputAddress">Address</label>
+                          <input type="text" class="form-control" id="feInputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="feInputCity">City</label>
+                            <input type="text" class="form-control" id="feInputCity">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="feInputState">State</label>
+                            <select id="feInputState" class="form-control">
+                              <option selected="">Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                          </div>
+                        </div>
+                        <button class="btn btn-primary d-block" type="submit">Save and Add</button>
+                       
+                       
+                      </form>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Default Light Table -->
+      </div>
+
+      
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <script src="../../node_modules/bootstrap/js/dist/dropdown.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../../node_modules/echarts/dist/echarts.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+
+  
+
+
+</body>
+
+</html>

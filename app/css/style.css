@@ -1,9 +1,20 @@
 body{
     /* background-color: #F5F6F8; */
+<<<<<<< HEAD:app/css/style.css
     background-color: rgb(225, 228, 235);
     width: 100%;
+=======
+>>>>>>> 6a0b1cd1aa536c922ac372d9abb5e55cdad24246:template/style/style.css
+   
+    background-color: rgb(244,245,247) !important;
+    width: 100%;
+    height: 100%;
    
 }
+.t-one{
+    background-color: rgb(244,245,247);
+}
+<<<<<<< HEAD:app/css/style.css
 .t-one{
     background-color: rgb(244,245,247);
 }
@@ -12,6 +23,14 @@ body{
     background-color: rgb(244,245,247);
   
 }
+=======
+.t-one .total{
+    margin-left: 225px;
+    background-color: rgb(244,245,247);
+  
+}
+                           /* HEADER STYLES */
+>>>>>>> 6a0b1cd1aa536c922ac372d9abb5e55cdad24246:template/style/style.css
 .header-two{
     /* box-shadow: 0 2px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ; */
   height: 3.25rem;
@@ -64,6 +83,7 @@ body{
     font-size: 0.7rem;
     color: #abb6bf;
 }
+                        /* side header */
 
  .side-nav{
     width: 13.97rem;
@@ -77,6 +97,15 @@ body{
     background-color: #fff;
    
     
+<<<<<<< HEAD:app/css/style.css
+=======
+}
+.side-nav img{
+    width: 40px;
+}
+.side-header{
+    margin-left: -20px;
+>>>>>>> 6a0b1cd1aa536c922ac372d9abb5e55cdad24246:template/style/style.css
 }
 .side-nav img{
     width: 40px;
@@ -100,10 +129,22 @@ body{
     color: #3d5170;
     letter-spacing: 0.050rem;
  margin-top: 8px;   
+<<<<<<< HEAD:app/css/style.css
+=======
+}
+
+.list-group .side-nav-one:hover,a:focus {
+    color: orange !important;
+  
+}
+.list-group a:active{
+    color: orange;
+>>>>>>> 6a0b1cd1aa536c922ac372d9abb5e55cdad24246:template/style/style.css
 }
 .list-group .list-group-item .side-icon{
     padding-right: 10px;
 }
+                     /* inside middleware */
 .dashboard{
     margin: 20px;
 }
@@ -168,8 +209,17 @@ max-width: 14rem;
 margin-top: 20px;
 margin-left: 18px;
 background-color: white;
+<<<<<<< HEAD:app/css/style.css
 }
 
+=======
+border-radius: 10px;
+}
+/* .deliver{
+   
+    margin-left: 10px;
+} */
+>>>>>>> 6a0b1cd1aa536c922ac372d9abb5e55cdad24246:template/style/style.css
 .prof{
     width: 15rem;
 }
@@ -177,16 +227,24 @@ background-color: white;
     box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
 
     border-radius: 10px;
+<<<<<<< HEAD:app/css/style.css
 }
 .user-1{
     margin-top:20px;
 }
+=======
+}
+.user-1{
+    margin-top:20px;
+}
+>>>>>>> 6a0b1cd1aa536c922ac372d9abb5e55cdad24246:template/style/style.css
 .trend{
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
     
 background-color:#fff ;
+<<<<<<< HEAD:app/css/style.css
 }
 #trend{
     margin-top: 40px;
@@ -201,3 +259,70 @@ background-color:#fff ;
 .colore{
     background-color: orange;
 }
+=======
+}
+#trend{
+    margin-top: 40px;
+}
+.addproduct
+{
+    box-shadow: 0 5px 0 rgba(90,97,105,.11), 0 4px 8px rgba(90,97,105,.12), 0 10px 10px rgba(90,97,105,.06), 0 7px 70px rgba(90,97,105,.1) ;
+     background-color: #fff;
+     margin: 20px;
+     border-radius: 10px;
+}
+.colore{
+    background-color: orange;
+}
+                   /* menu html */
+.f-list .create{
+     margin-left: 52rem;
+     margin-bottom: 10px; 
+     padding: 6px;  
+     border: 1px solid orange;
+     color: orange;
+     font-weight: 500;
+    
+}
+.f-list .f{
+    width: 10rem;
+    font-weight: 500;
+    /* font-size: 30px; */
+}
+             /* restaurent details */
+.tab .tab-one{
+    color: yellow;
+    letter-spacing: 10px;
+    
+}
+.tab .t-two .edit{
+    color: black;
+}
+.tab .create{
+    font-weight: 600;
+    margin-left: 53rem;
+    padding: 5px;
+}
+.tab span{
+    font-size: 1.425rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0;
+    color: rgb(62,81,111);
+}
+.tab{
+    margin-top: 20px;
+}
+                /* menu */
+.tab img{
+    width: 50%;
+}
+.tab .tab-two{
+    width: 15%;
+}
+              /* forms */
+.user{
+    margin-top: 20px;
+}
+/* for demo purpose */
+>>>>>>> 6a0b1cd1aa536c922ac372d9abb5e55cdad24246:template/style/style.css

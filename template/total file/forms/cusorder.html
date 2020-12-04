@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../style/style2.css">
+    <!-- <link rel="stylesheet" href="./style/style.css"> -->
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="d-flex t-one" id="wrapper">
+
+        <!-- Sidebar -->
+        <div class=" border-right side-nav " id="sidebar-wrapper ">
+            <div class="sidebar-heading text-center page-title  side-header"> <img src="../image/logo.jpg" alt=""
+                    srcset="">
+                FOODIE </div>
+            <div class="list-group list-group-flush">
+                <a href="../../index.html" class="list-group-item list-group-item-action  side-nav-one"><i
+                        class="fa fa-pencil side-icon" aria-hidden="true"></i>Dash board</a>
+                <a href="../foodcatagories.html" class="list-group-item list-group-item-action  side-nav-one"><i
+                        class="fa fa-tasks side-icon" aria-hidden="true"></i>Food Categories</a>
+                <a href="../tabel.html" class="list-group-item list-group-item-action  side-nav-one"><i
+                        class="fa fa-file-text-o side-icon" aria-hidden="true"></i>Store List</a>
+                <a href="../menu.html" class="list-group-item list-group-item-action  side-nav-one"><i
+                        class="fa fa-table side-icon" aria-hidden="true"></i>Menu</a>
+                <a href="../customer.html" class="list-group-item list-group-item-action  side-nav-one"><i
+                        class="fa fa-user side-icon" aria-hidden="true"></i>Customer</a>
+                <a href="../orders.html" class="list-group-item list-group-item-action  side-nav-one"><i
+                        class="fa fa-shopping-cart  side-icon" aria-hidden="true"></i>Orders</a>
+
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper" class="total container-fluid">
+
+
+
+            <div class="row header-one ">
+                <div class="input-group sticky-top bg-white  header-two">
+                    <i class="fa fa-search s-icon" aria-hidden="true"></i><input type="text"
+                        class="form-control searchengin" placeholder="Search for something..."
+                        aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+                    <div class="input-group-append input-text-grp bell-icon" id="button-addon4">
+                        <div class="b-bor">
+                            <a href="http://"><i class="fa fa-bell b-icon " aria-hidden="true"></i><span
+                                    class="badge badge-pill badge-danger">2</span></a>
+                        </div>
+                        <div class="down">
+                            <h6>About-Us</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+            <div class="row">
+                <div class="col-lg col-xl col-md-12 addproduct">
+                    <div class="ms-panel ms-panel-fh">
+                        <div class="ms-panel-header">
+                            <h6 class="card-header bg-white">Order Form</h6>
+                        </div>
+                        <div class="ms-panel-body">
+                            <form class="needs-validation clearfix" novalidate="">
+                                <div class="form-row">
+                                    <div class="col-md-12 mb-3">
+                                        <label for="validationCustom18">Name</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="validationCustom18"
+                                                placeholder="Your Name" value="Velmurugan..." required="">
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationCustom22">Select Catagory</label>
+                                        <div class="input-group">
+                                            <select class="form-control" id="validationCustom22" required="">
+                                                <option value="">Catagory 1</option>
+                                                <option value="">Catagory 2</option>
+                                                <option value="">Catagory 3</option>
+                                                <option value="">Catagory 4</option>
+
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Please select a Catagory.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationCustom23">Food List</label>
+                                        <div class="input-group">
+                                            <select class="form-control" id="validationCustom23" required="">
+                                                <option value="">Select Food</option>
+                                                <option value="">Chicken Briyani</option>
+                                                <option value="">Mutton Briyani</option>
+                                                <option value="">Chicken Rice</option>
+
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Please select a Currency
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationCustom24">Quantity</label>
+                                        <div class="input-group">
+                                            <select class="form-control" id="validationCustom23" required="">
+                                                <option value="">Select Option</option>
+                                                <option value="">1/2k</option>
+                                                <option value="">1k</option>
+                                                <option value="">1.5k</option>
+                                                <option value="">2k</option>
+
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Quantity
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="validationCustom25">Price</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="validationCustom25"
+                                                placeholder="$10" required="">
+                                            <div class="invalid-feedback">
+                                                Price
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <label for="validationCustom12">Additional Information</label>
+                                        <div class="input-group">
+                                            <textarea rows="5" id="validationCustom12" class="form-control"
+                                                placeholder="Message" required=""></textarea>
+                                            <div class="invalid-feedback">
+                                                Please provide a message.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                      
+                                    </div>
+                                    <button class="btn btn-primary d-block" type="submit">Save and Add</button>
+
+                                </div>
+
+
+
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+                   
+                   
+                 </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+    <script src="../node_modules/bootstrap/js/dist/dropdown.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../node_modules/echarts/dist/echarts.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+
+
+
+</body>
+
+</html>
